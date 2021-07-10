@@ -335,3 +335,11 @@ ul {
 .button__normal:hover{
   background: #e7e7e9;
 }
+
+.posts__container{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
