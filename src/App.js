@@ -1,7 +1,7 @@
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
 import Header from "../src/components/Header"
-import Hotjar from "../src/components/Hotjar"
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Header />} />
       </Routes>
-      <Hotjar />
+      <Home />
     </div>
   );
 }
