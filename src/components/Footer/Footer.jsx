@@ -1,9 +1,10 @@
 import {Link} from 'react-router-dom';
-import DribbleIcon from "../assets/dribble.png"
-import TwitterIcon from "../assets/twitter.png"
-import FacebookIcon from "../assets/facebook.png"
-import InstagramIcon from "../assets/instagram.png"
-import PinterestIcon from "../assets/pinterest.png"
+import Lower from "../Footer/Lower"
+import DribbleIcon from "../../assets/dribble.png"
+import TwitterIcon from "../../assets/twitter.png"
+import FacebookIcon from "../../assets/facebook.png"
+import InstagramIcon from "../../assets/instagram.png"
+import PinterestIcon from "../../assets/pinterest.png"
 
 const Footer = () => {
     return (
@@ -132,6 +133,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
+            <Lower/>
         </div>
     )
 }
