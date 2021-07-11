@@ -323,19 +323,19 @@ ul {
   margin-left: 8px;
 }
 
-.space__between{
+.space__between {
   margin-right: 10px;
 }
 
-.button__normal--like:hover{
+.button__normal--like:hover {
   background: #e7e7e9;
 }
 
-.button__normal:hover{
+.button__normal:hover {
   background: #e7e7e9;
 }
 
-.posts__container{
+.posts__container {
   margin-top: 2rem;
   display: flex;
   justify-content: center;
@@ -343,7 +343,7 @@ ul {
   margin-bottom: 1rem;
 }
 
-.short-description__container{
+.short-description__container {
   margin-top: 2rem;
   display: flex;
   justify-content: center;
@@ -353,12 +353,12 @@ ul {
   margin-right: 35rem;
 }
 
-.bio__link{
+.bio__link {
   text-decoration: none;
   color: #ea4c89;
 }
 
-.typography{
+.typography {
   display: flex;
   justify-content: flex-start;
   margin-top: -30px;
@@ -368,7 +368,7 @@ ul {
 
 /* User Profile Styles */
 
-.user-details-section{
+.user-details-section {
   margin-top: 70px;
   width: 100%;
   text-align: center;
@@ -377,34 +377,34 @@ ul {
   align-items: center;
 }
 
-.user-avatar-container{
+.user-avatar-container {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
 }
 
-.user-avatar-line{
+.user-avatar-line {
   border: 1px solid #e7e7e9;
   width: 400px;
 }
 
-.user__avatar-container{
+.user__avatar-container {
   margin: 0 24px;
 }
 
-.user__details--icon{
+.user__details--icon {
   width: 72px;
   height: 72px;
   border-radius: 50%;
 }
 
-.user__intro{
+.user__intro {
   display: flex;
   flex-direction: column;
 }
 
-.user__title{
+.user__title {
   font-size: 20px;
   font-weight: 500;
   line-height: 29px;
@@ -412,7 +412,7 @@ ul {
   color: #0d0c22;
 }
 
-.user-bio{
+.user-bio {
   font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -421,4 +421,45 @@ ul {
   max-width: 400px;
   text-align: center;
   color: #3d3d4e;
+}
+
+.user_posts--section {
+  margin-top: 64px;
+  width: 50%;
+}
+
+.user-posts--heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.view__profile {
+  text-decoration: none;
+  color: #ea4c89;
+  flex-shrink: 0;
+  margin-top: 1.5rem;
+}
+
+.view__profile:hover {
+  color: #f082ac;
+}
+
+.user__name {
+  margin-left: -3rem !important;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.user__posts {
+  margin-top: -2rem !important;
+  border-radius: 10px;
+  width: 214px;
+  height: 160px;
+  margin-right: 2rem;
+  margin-left: 2rem;
 }

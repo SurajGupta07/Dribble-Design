@@ -1,4 +1,5 @@
 import userIcon from "../assets/user.jpg"
+import UserPosts from "./UserPosts";
 
 const UserProfile = () => {
     return (
@@ -14,6 +15,7 @@ const UserProfile = () => {
                 <h1 className="header-title user__title">Francesco Zagami</h1>
                 <p className="header-name user-bio">Lead Designer at Isobar - Judge @Awwwards</p>
             </div>
+            <UserPosts />
         </div>
     )
 }
