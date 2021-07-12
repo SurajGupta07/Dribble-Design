@@ -561,7 +561,7 @@ ul {
 
 .footer-lower {
   margin-bottom: 1rem;
-  padding: 35px 70px;
+  padding: 35px 0px;
   color: #6e6d7a;
   display: flex;
   flex-direction: row;
@@ -583,7 +583,7 @@ ul {
   line-height: 20px;
 }
 
-.shots-text{
+.shots-text {
   position: absolute;
   right: 395px;
 }
@@ -593,4 +593,17 @@ ul {
   left: 150px;
   border: 1px solid #e7e7e9;
   width: 1300px;
+}
+
+.dribble-ball {
+  margin-top: -1px;
+  cursor: pointer;
+  position: absolute;
+  right: 360px;
+  height: 24px;
+  width: 24px;
+}
+
+.footer__border{
+  padding-left: 72px;
 }
